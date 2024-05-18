@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+:root{
+    --color00: #7CA2F4;
+    --color01: #121214;
+    --color02: #E2E6EC;
+
+    --fontearchivo: 'Archivo';
+}
+
+
+
+section p{
+    font-size: 1em;
+}
+
+#fmjordan{
+    background-position: center top;
+}
+
+#fmjordan div > p{
+    width: 360px;
+    font-size: 0.99em;
+    line-height: 25px;
+}

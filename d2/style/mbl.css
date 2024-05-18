@@ -10,6 +10,8 @@
     --fontearchivo: 'Archivo';
 }
 
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -18,6 +20,7 @@
 
 body{
     background-color: white;
+    color: var(--color01);
     font-family: var(--fontearchivo);
 }
 
@@ -28,7 +31,8 @@ header{
 }
 
 section{
-    padding: 20px;
+    margin: auto;
+    width: 85%;
 }
 
 section h2{
@@ -43,41 +47,41 @@ section > p{
     margin-bottom: 20px;
 }
 
-section div{
-    margin: auto;
+#tenis{
     margin-top: 40px;
-    width: 250px;
 }
 
-section div > img{
-    background: var(--color02);
-    width: 250px;
+#tenis > img{
+    display: block;
+    margin: auto;
+    width: 77%;
 }
 
-#fmbjordan{
+#fmjordan{
     background: black url('../imagem/michaelbjordan.png');
     background-size: cover;
     height: 300px;
     color: white;
 }
 
-#fmbjordan div{
+#fmjordan div{
     background-color: #121214BF;
     height: 300px;
     padding: 30px;
 }
 
-#fmbjordan div > h1{
+#fmjordan div > h1{
     font-size: 1.3em;
     padding-bottom: 12px;
 }
 
-#fmbjordan div > h2{
+#fmjordan div > h2{
+    display: inline-block;
     font-size: 1.1em;
-    padding: 50px 0px 30px 0px;
+    padding: 50px 0px 30px 10px;
 }
 
-#fmbjordan div > p{
+#fmjordan div > p{
     line-height: 20px;
 }
 
@@ -94,13 +98,26 @@ section div > img{
 
 #preco{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-size: 1.4em;
     margin-top: 10px;
 }
 
-@media screen and (min-width: 396px){
+@media screen and (min-width: 396px) and (max-width: 600px){
     section > p{
         margin: auto;
-        width: 340px;
+        width: 400px;
+        font-size: 0.9em;
     }
-}
+
+    section p{
+        width: 300px;
+    }
+
+    #fmjordan div > p{
+        width: 344px;
+    }
+
+    #tenis > img{
+        width: 270px;
+    }
+} 
