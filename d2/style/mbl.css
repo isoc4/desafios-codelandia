@@ -5,6 +5,7 @@
 :root{
     --color00: #7CA2F4;
     --color01: #121214;
+    --color02: #E2E6EC;
 
     --fontearchivo: 'Archivo';
 }
@@ -12,6 +13,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,8 +22,36 @@ body{
 }
 
 header{
+    font-size: 0.5em;
     text-align: center;
     padding: 12px;
+}
+
+section{
+    padding: 20px;
+}
+
+section h2{
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0px 15px 0px;
+}
+
+section > p{
+    font-size: 0.7em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section div{
+    margin: auto;
+    margin-top: 40px;
+    width: 250px;
+}
+
+section div > img{
+    background: var(--color02);
+    width: 250px;
 }
 
 #fmbjordan{
@@ -34,4 +64,43 @@ header{
 #fmbjordan div{
     background-color: #121214BF;
     height: 300px;
+    padding: 30px;
+}
+
+#fmbjordan div > h1{
+    font-size: 1.3em;
+    padding-bottom: 12px;
+}
+
+#fmbjordan div > h2{
+    font-size: 1.1em;
+    padding: 50px 0px 30px 0px;
+}
+
+#fmbjordan div > p{
+    line-height: 20px;
+}
+
+#detalhes{
+    font-family: var(--fontearchivo);
+    padding: 15px 0px 0px 0px;
+    line-height: 30px;
+}
+
+#detalhes a{
+    color: var(--color00);
+    text-decoration: none;
+}
+
+#preco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 396px){
+    section > p{
+        margin: auto;
+        width: 340px;
+    }
 }
