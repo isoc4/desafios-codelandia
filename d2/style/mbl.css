@@ -32,19 +32,16 @@ header{
 
 section{
     margin: auto;
-    width: 85%;
+    width: 80%;
 }
 
 section h2{
-    font-size: 1.2em;
+    padding: 30px;
     text-align: center;
-    margin: 20px 0px 15px 0px;
 }
 
 section > p{
-    font-size: 0.7em;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 #tenis{
@@ -56,6 +53,8 @@ section > p{
     margin: auto;
     width: 77%;
 }
+
+ul{display: none;}
 
 #fmjordan{
     background: black url('../imagem/michaelbjordan.png');
@@ -81,9 +80,7 @@ section > p{
     padding: 50px 0px 30px 10px;
 }
 
-#fmjordan div > p{
-    line-height: 20px;
-}
+#fmjordan div > p{line-height: 20px;}
 
 #detalhes{
     font-family: var(--fontearchivo);
@@ -105,19 +102,11 @@ section > p{
 @media screen and (min-width: 396px) and (max-width: 600px){
     section > p{
         margin: auto;
-        width: 400px;
-        font-size: 0.9em;
+        font-size: 1.2em;
+        line-height: 35px;
     }
 
-    section p{
-        width: 300px;
-    }
+    #fmjordan div > p{width: 344px;}
 
-    #fmjordan div > p{
-        width: 344px;
-    }
-
-    #tenis > img{
-        width: 270px;
-    }
+    #tenis > img{width: 70%;}
 } 

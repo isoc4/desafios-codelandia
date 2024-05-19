@@ -14,6 +14,19 @@ section p{
     font-size: 1em;
 }
 
+ul{
+    margin-top: 40px;
+    display: block;
+    columns: 2;
+    list-style-type: none;
+}
+
+ul li > img{
+    display: block;
+    margin: auto;
+    width: 77%;
+}
+
 #fmjordan{
     background-position: center top;
 }
@@ -22,4 +35,34 @@ section p{
     width: 360px;
     font-size: 0.99em;
     line-height: 25px;
+}
+
+#tenis{
+    display: none;
+}
+
+#detalhes{
+    font-size: 2.2vw;
+}
+
+#preco{
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 790px){
+    ul li > img{
+        width: 185px;
+    }
+
+    #detalhes{
+        font-size: 1em;
+    }
+
+    ul li{
+        width: 323px;
+    }
+
+    section{
+        width: 655px;
+    }
 }

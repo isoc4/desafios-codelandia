@@ -10,3 +10,44 @@
 
 
 
+header h2{
+    font-size: 2.2em;
+}
+
+section{
+    width: 1000px;
+}
+
+section h2{
+    font-size: 2em;
+}
+
+section > p{
+    margin: auto;
+    font-size: 1.5em;
+}
+
+ul{
+    columns: 3;
+}
+
+ul li{
+    width: 250px;
+}
+
+ul li > img{
+    width: 90%;
+}
+
+#fmjordan div{
+    padding-left: 20%;
+}
+
+#detalhes{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#preco{
+    font-size: 1.4em;
+}
